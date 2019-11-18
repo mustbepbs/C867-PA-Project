@@ -53,7 +53,7 @@ void classRoster::remove(string studentID) {
 
 // Printing by degree program
 void classRoster::printByDegreeProgram(string degree) {
-	DegreeProgram tDegree = tDegree;//DegreeProgram::SOFTWARE;
+	DegreeProgram tDegree = tDegree;
 	if (degree == "NETWORKING") {
 		tDegree = DegreeProgram::NETWORKING;
 		cout << "Students in the Networking Degree Program: " << endl;
